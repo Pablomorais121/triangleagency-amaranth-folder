@@ -1,0 +1,16 @@
+#LevelDB files
+packs/**/LOCK
+packs/**/LOG
+packs/**/LOG.old
+
+ #System and editor files
+ .DS_Store
+ Thumbs.db
+ desktop.ini
+ .vscode/
+
+ #Foundryvtt-cli
+ node_modules/
+
+ #Zip files
+ *.zip

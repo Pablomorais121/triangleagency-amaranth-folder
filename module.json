@@ -1,0 +1,76 @@
+{
+  "id": "ta-amaranth-folder",
+  "title": "The Amaranth Folder - A Triangle Agency supplement",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Pablo Morais Álvarez",
+      "email": "pablomoraisalvarez@gmail.com",
+      "url": "https://github.com/Pablomorais121",
+      "discord": "Pablomorais121",
+      "flags": {}
+    },
+    {
+      "name": "Rhodocros",
+      "email": "rljoseph679@gmail.com",
+      "url": "https://rhodocros.itch.io/triangle-agency-the-amaranth-folder",
+      "discord": "Rhodocros",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "amaranth-gm",
+      "label": "Amaranth GM Documents",
+      "path": "packs/amaranth-gm",
+      "type": "JournalEntry",
+      "system": "triangleagency",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "amaranth-data",
+      "label": "Amaranth Agency Data",
+      "path": "packs/amaranth-data",
+      "type": "Item",
+      "system": "triangleagency",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "amaranth-antagonists",
+      "label": "Amaranth Antagonists",
+      "path": "packs/amaranth-antagonists",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "triangleagency",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "triangleagency",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": ""
+}
